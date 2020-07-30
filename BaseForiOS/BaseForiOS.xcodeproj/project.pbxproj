@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7896A3A924D2C29200CF9685 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7896A3A824D2C29200CF9685 /* UIColor+Category.m */; };
 		78D17E9924C5AEF700A397D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D17E9824C5AEF700A397D2 /* AppDelegate.m */; };
 		78D17E9C24C5AEF700A397D2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D17E9B24C5AEF700A397D2 /* SceneDelegate.m */; };
 		78D17E9F24C5AEF700A397D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D17E9E24C5AEF700A397D2 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7896A3A724D2C29200CF9685 /* UIColor+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		7896A3A824D2C29200CF9685 /* UIColor+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		78D17E9424C5AEF700A397D2 /* BaseForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D17E9724C5AEF700A397D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78D17E9824C5AEF700A397D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7896A3A624D2C26C00CF9685 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				7896A3A724D2C29200CF9685 /* UIColor+Category.h */,
+				7896A3A824D2C29200CF9685 /* UIColor+Category.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 		78D17E8B24C5AEF700A397D2 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 		78D17EB024C5AF1A00A397D2 /* third-party */ = {
 			isa = PBXGroup;
 			children = (
+				7896A3A624D2C26C00CF9685 /* category */,
 				78D17EB124C5AF1A00A397D2 /* kit */,
 			);
 			path = "third-party";
@@ -212,6 +225,7 @@
 				78D17E9F24C5AEF700A397D2 /* ViewController.m in Sources */,
 				78D17E9924C5AEF700A397D2 /* AppDelegate.m in Sources */,
 				78D17EAA24C5AEF800A397D2 /* main.m in Sources */,
+				7896A3A924D2C29200CF9685 /* UIColor+Category.m in Sources */,
 				78D17EBA24C5AF1A00A397D2 /* XImageLoopView.m in Sources */,
 				78D17E9C24C5AEF700A397D2 /* SceneDelegate.m in Sources */,
 				78D17EB924C5AF1A00A397D2 /* XProxy.m in Sources */,
